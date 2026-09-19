@@ -5,7 +5,7 @@
 
 import type { MetadataRoute } from "next";
 
-const 사이트주소 = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const 사이트주소 = process.env.NEXT_PUBLIC_SITE_URL ?? "https://keca-oneline-demo.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {

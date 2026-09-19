@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
-const 사이트주소 = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+// 카드 주소는 반드시 절대주소여야 합니다 — localhost 로 두면 카톡에 그림이 안 뜹니다.
+const 사이트주소 = process.env.NEXT_PUBLIC_SITE_URL ?? "https://keca-oneline-demo.vercel.app";
 const 사이트이름 = process.env.NEXT_PUBLIC_SITE_NAME ?? "오늘의 한 줄";
 
 // ⑤회차 · 간판에 뭐라고 쓸지 —
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: 사이트이름,
     locale: "ko_KR",
     type: "website",
-    // images: ["/og.png"],   ← 1200×630 이미지를 public/ 에 넣고 주석을 푸세요
+    // 카드 그림은 app/opengraph-image.tsx 가 그립니다 — 여기 적을 필요 없습니다.
   },
   robots: { index: true, follow: true },
 };
