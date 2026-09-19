@@ -24,7 +24,8 @@ export const metadata: Metadata = {
     siteName: 사이트이름,
     locale: "ko_KR",
     type: "website",
-    // 카드 그림은 app/opengraph-image.tsx 가 그립니다 — 여기 적을 필요 없습니다.
+    // 카드 그림 — public/og.png 한 장. 1200×630 이어야 카톡에서 크게 나옵니다.
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: 사이트이름 }],
   },
   robots: { index: true, follow: true },
 };
