@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "jobId": "95d0a9fd-b7f1-4b26-a2b7-ae7682a2fd63",
+  "sessionId": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+  "scopeKey": "6d2b36d3a5d0d59230c2f7a305039f362a38ae5b9f5491430f84bb594e9d571e",
+  "revision": 43,
+  "createdAt": "2026-09-14T04:37:44.790Z",
+  "updatedAt": "2026-09-15T10:56:34.619Z",
+  "producerGraceExpiresAt": "2026-09-14T04:38:14.790Z",
+  "bestEffortDeadlineAt": "2026-09-14T04:39:05.790Z",
+  "producers": {
+    "core": {
+      "state": "sealed",
+      "intentKey": "e4eb88a5185551c8e8262cf7d009ffb62a6be1cca543d51ede11c50152d97aaf",
+      "payloadDigest": "e4eb88a5185551c8e8262cf7d009ffb62a6be1cca543d51ede11c50152d97aaf",
+      "sealedAt": "2026-09-14T04:37:44.835Z",
+      "sealedBy": "foreground"
+    },
+    "wiki": {
+      "state": "no-op",
+      "sealedAt": "2026-09-14T04:37:44.815Z",
+      "sealedBy": "wiki-producer"
+    }
+  },
+  "actions": {
+    "foreground-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "cdc28805276c1fccaa0b6563b05a22e7f189e6916a38452b5ea01747797273c8",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {},
+        "foregroundResult": {
+          "removedTransientFiles": 1,
+          "completedAt": "2026-09-14T04:37:44.834Z"
+        }
+      },
+      "budgetMs": 9000,
+      "completedAt": "2026-09-14T04:37:44.835Z",
+      "lastOutcomeCode": "completed"
+    },
+    "wiki-capture": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "c3082e308a3bede08346db913954349cb26de7d255717b947ff2cfbaf8e533fb",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "completedAt": "2026-09-14T04:37:44.815Z"
+    },
+    "team-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "4b2826ef0aacd816c3529e151c02db366bb3656c20a05dd2e22dbfdde60e3b9f",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-09-14T04:37:44.953Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "5e1c2c82-575e-4d68-8bf4-1aee63cf02f2",
+        "phase": "terminal",
+        "deadlineAt": "2026-09-14T04:37:54.906Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-09-14T04:37:45.128Z"
+    },
+    "python-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "c08a4fbfb1c6d332ebe0d24c5f7b3bf7f63de634f1281a2f32bbd70e21b07a92",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-09-14T04:37:45.149Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "da92edca-78d9-46d7-a656-ea4efba5957d",
+        "phase": "terminal",
+        "deadlineAt": "2026-09-14T04:37:54.906Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-09-14T04:37:45.321Z"
+    },
+    "reply-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "4c41f86fd44fa6002944621f5d8cf91936476a2f9310ed61d9e675560aa89a76",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-09-14T04:37:45.342Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "ca629439-3269-4bf3-8733-236f3b694b47",
+        "phase": "terminal",
+        "deadlineAt": "2026-09-14T04:37:54.906Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-09-14T04:37:45.500Z"
+    },
+    "callback": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "8b32b9ff44fb3275b02ca39959f1a4deb3eedac9e04d0352dca0a5507052b44c",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-09-14T04:37:45.522Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "8c84a34c-b466-4753-913d-bbce746bfecb",
+        "phase": "terminal",
+        "deadlineAt": "2026-09-14T04:37:54.906Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-09-14T04:37:45.680Z"
+    },
+    "notification": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "976f5040f9b5c50462c6bf47f02126cac06c893cf83aa2b78fa6b9ad7035160e",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-09-14T04:37:45.700Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "888bb674-cca6-437c-b55f-09cdc981875b",
+        "phase": "terminal",
+        "deadlineAt": "2026-09-14T04:37:54.906Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-09-14T04:37:45.858Z"
+    },
+    "openclaw": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "726174138df7cd310b7349805aea9778c1e17a038537888d96344381089945c5",
+      "payload": {
+        "transcriptPath": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+        "cwd": "/Users/jiukryu/Documents/oneline-demo",
+        "reason": "other",
+        "input": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "transcript_path": "/Users/jiukryu/.claude/projects/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660.jsonl",
+          "cwd": "/Users/jiukryu/Documents/oneline-demo",
+          "scratchpad_dir": "/private/tmp/claude-501/-Users-jiukryu-Documents-oneline-demo/1828c82c-d0b2-4b53-ba99-02fefb439660/scratchpad",
+          "prompt_id": "c1f05b00-76e2-4a5e-8a85-6d8613dc629b",
+          "hook_event_name": "SessionEnd",
+          "reason": "other"
+        },
+        "metrics": {
+          "session_id": "1828c82c-d0b2-4b53-ba99-02fefb439660",
+          "ended_at": "2026-09-14T04:37:44.784Z",
+          "reason": "other",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-09-14T04:37:45.878Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "33a38817-ae5e-4fa2-9501-a17b9bf6c738",
+        "phase": "terminal",
+        "deadlineAt": "2026-09-14T04:37:54.906Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-09-14T04:37:46.031Z"
+    }
+  },
+  "owner": null,
+  "phase": "complete",
+  "completion": {
+    "completedAt": "2026-09-14T04:37:46.052Z",
+    "terminalDigest": "a96a2f8f2ce39c3d0b49b75adb202a4a2147613f9388a443fdb849de9a4d64ec",
+    "terminalRevision": 40
+  }
+}
